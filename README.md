@@ -7,7 +7,7 @@ Official implementation of WWW2025 short paper: "Balancing Plasticity and Stabil
 ## Abstract  
 Deep learning models often face catastrophic forgetting when learning new tasks while retaining prior knowledge. In continual learning (CL), balancing plasticity (adapting to new information) and stability (preserving past knowledge) is crucial. Memory replay addresses this challenge by integrating new data with stored memories, but existing methods often fail to achieve an effective balance, overemphasizing either old or new knowledge. Previous works address this issue by enhancing replay buffer quality with distilled images but overlook the model's learning process itself.To tackle this, we propose a novel dual-branch framework designed to manage the plasticity-stability trade-off in CL. The fast-updated branch enhances plasticity by quickly adapting to novel tasks,while the slow-updated branch ensures stability by gradually consolidating knowledge across all seen tasks without gradient updates. To further stabilize the learning process, we introduce a consistency loss to align the two branches and prevent divergence. This dual-branch structure integrates new information while maintaining robust retention of prior knowledge.Extensive experiments on challenging online continual learning benchmarks validate the effectiveness of our framework, demonstrating superior performance and robust handling of the plasticity-stability trade-off.
 
-
+---
 ## Datasets  
 - **Online Class Incremental**  
 - **Split CIFAR100**  
