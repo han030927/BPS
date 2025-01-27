@@ -9,14 +9,13 @@ Deep learning models often face catastrophic forgetting when learning new tasks 
 
 ---
 ## Datasets  
-- **Online Class Incremental**  
-- **Split CIFAR100**  
-- **Split Mini-ImageNet**  
-- **Split Tiny-ImageNet**  
 
----
+### Online Class Incremental  
+- **CIFAR100**  
+- **Mini-ImageNet**  
+- **Tiny-ImageNet**  
 
-## Data Preparation  
+### Data Preparation  
 - **CIFAR10 & CIFAR100**: These datasets will be automatically downloaded during the first run.  
 - **Mini-ImageNet**: Download from [Mini-ImageNet Kaggle Dataset](https://www.kaggle.com/whitemoon/miniimagenet/download) and place it in `datasets/mini_imagenet/`.  
 - **Tiny-ImageNet**: Download from [Tiny-ImageNet](http://cs231n.stanford.edu/tiny-imagenet-200.zip), place it in `datasets/tiny-imagenet-200/`. Then, copy `process_tiny_imagenet.py` to the directory and run it to preprocess the dataset into pickles.
