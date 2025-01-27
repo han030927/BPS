@@ -31,7 +31,7 @@ from utils.buffer.mgi_retrieve import MGI_retrieve
 from agents.exp_replay_dvc import ExperienceReplay_DVC
 
 
-from agents.newFast_slow_summarize import DDDReplay
+from agents.BPS import BPSReplay
 
 
 data_objects = {
