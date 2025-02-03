@@ -44,7 +44,7 @@ Deep learning models often face catastrophic forgetting when learning new tasks 
 
 
 ## Run Commands  
-For detailed descriptions of options, refer to the **SSD** section in `general_main.py`.
+For detailed descriptions of options, refer to the `general_main.py`.
 
 **Sample Command to Run Algorithms on Split-CIFAR100**:  
 ```bash
